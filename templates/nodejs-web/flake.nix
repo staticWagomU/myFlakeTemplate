@@ -14,9 +14,9 @@
           nodePackages.pnpm
           nodePackages.npm
           nodePackages.yarn
-          nodePackages.bun
+          bun
         ];
-      
+
         shellHook = ''
           echo "🚀 Node.js development environment"
           echo "Node.js: $(node --version)"
