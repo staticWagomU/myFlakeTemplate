@@ -13,6 +13,11 @@
         description = "A development environment with Rust and Cargo";
       };
 
+      go = {
+        path = ./templates/go;
+        description = "A development environment with Go and common tools";
+      };
+
     };
   };
 }
